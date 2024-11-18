@@ -6,6 +6,12 @@
 //
 
 #import "ZFImageCameraRender.h"
+#import "ZFImageContext.h"
+#import "HZImageOutput.h"
+
+NSString *const vertextShaderString = SHADER_STRING(
+    attribute vec4 position;
+);
 
 @implementation ZFImageCameraRender
 

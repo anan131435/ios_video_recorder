@@ -19,6 +19,7 @@
 		7304513A2CEB784F00D6CFFC /* ZFImageTextureFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451392CEB784F00D6CFFC /* ZFImageTextureFrame.m */; };
 		7304513E2CEBFC9900D6CFFC /* ZFImageVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7304513D2CEBFC9900D6CFFC /* ZFImageVideoCamera.m */; };
 		730451412CEBFFB300D6CFFC /* ZFImageCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451402CEBFFB300D6CFFC /* ZFImageCameraRender.m */; };
+		730451442CEC04FD00D6CFFC /* ZFImageProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451432CEC04FD00D6CFFC /* ZFImageProgram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		7304513D2CEBFC9900D6CFFC /* ZFImageVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageVideoCamera.m; sourceTree = "<group>"; };
 		7304513F2CEBFFB300D6CFFC /* ZFImageCameraRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageCameraRender.h; sourceTree = "<group>"; };
 		730451402CEBFFB300D6CFFC /* ZFImageCameraRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageCameraRender.m; sourceTree = "<group>"; };
+		730451422CEC04FD00D6CFFC /* ZFImageProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageProgram.h; sourceTree = "<group>"; };
+		730451432CEC04FD00D6CFFC /* ZFImageProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageProgram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				730451352CEB743300D6CFFC /* ZFImageContext.m */,
 				730451382CEB784E00D6CFFC /* ZFImageTextureFrame.h */,
 				730451392CEB784F00D6CFFC /* ZFImageTextureFrame.m */,
+				730451422CEC04FD00D6CFFC /* ZFImageProgram.h */,
+				730451432CEC04FD00D6CFFC /* ZFImageProgram.m */,
 			);
 			path = imageCore;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				7304511F2CEB731800D6CFFC /* ViewController.m in Sources */,
 				7304513E2CEBFC9900D6CFFC /* ZFImageVideoCamera.m in Sources */,
 				730451362CEB743300D6CFFC /* ZFImageContext.m in Sources */,
+				730451442CEC04FD00D6CFFC /* ZFImageProgram.m in Sources */,
 				730451412CEBFFB300D6CFFC /* ZFImageCameraRender.m in Sources */,
 				730451332CEB734A00D6CFFC /* HZImageOutput.m in Sources */,
 				730451192CEB731800D6CFFC /* AppDelegate.m in Sources */,
