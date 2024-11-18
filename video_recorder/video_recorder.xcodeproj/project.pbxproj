@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730451192CEB731800D6CFFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451182CEB731800D6CFFC /* AppDelegate.m */; };
+		7304511C2CEB731800D6CFFC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7304511B2CEB731800D6CFFC /* SceneDelegate.m */; };
+		7304511F2CEB731800D6CFFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7304511E2CEB731800D6CFFC /* ViewController.m */; };
+		730451222CEB731800D6CFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730451202CEB731800D6CFFC /* Main.storyboard */; };
+		730451242CEB731A00D6CFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730451232CEB731A00D6CFFC /* Assets.xcassets */; };
+		730451272CEB731A00D6CFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730451252CEB731A00D6CFFC /* LaunchScreen.storyboard */; };
+		7304512A2CEB731A00D6CFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451292CEB731A00D6CFFC /* main.m */; };
+		730451332CEB734A00D6CFFC /* HZImageOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451322CEB734A00D6CFFC /* HZImageOutput.m */; };
+		730451362CEB743300D6CFFC /* ZFImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451352CEB743300D6CFFC /* ZFImageContext.m */; };
+		7304513A2CEB784F00D6CFFC /* ZFImageTextureFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451392CEB784F00D6CFFC /* ZFImageTextureFrame.m */; };
+		7304513E2CEBFC9900D6CFFC /* ZFImageVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7304513D2CEBFC9900D6CFFC /* ZFImageVideoCamera.m */; };
+		730451412CEBFFB300D6CFFC /* ZFImageCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 730451402CEBFFB300D6CFFC /* ZFImageCameraRender.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		730451142CEB731800D6CFFC /* video_recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video_recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730451172CEB731800D6CFFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		730451182CEB731800D6CFFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7304511A2CEB731800D6CFFC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7304511B2CEB731800D6CFFC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7304511D2CEB731800D6CFFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7304511E2CEB731800D6CFFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		730451212CEB731800D6CFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730451232CEB731A00D6CFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730451262CEB731A00D6CFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730451282CEB731A00D6CFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730451292CEB731A00D6CFFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730451312CEB734A00D6CFFC /* HZImageOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZImageOutput.h; sourceTree = "<group>"; };
+		730451322CEB734A00D6CFFC /* HZImageOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZImageOutput.m; sourceTree = "<group>"; };
+		730451342CEB743300D6CFFC /* ZFImageContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageContext.h; sourceTree = "<group>"; };
+		730451352CEB743300D6CFFC /* ZFImageContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageContext.m; sourceTree = "<group>"; };
+		730451372CEB769C00D6CFFC /* readme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
+		730451382CEB784E00D6CFFC /* ZFImageTextureFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageTextureFrame.h; sourceTree = "<group>"; };
+		730451392CEB784F00D6CFFC /* ZFImageTextureFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageTextureFrame.m; sourceTree = "<group>"; };
+		7304513C2CEBFC9900D6CFFC /* ZFImageVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageVideoCamera.h; sourceTree = "<group>"; };
+		7304513D2CEBFC9900D6CFFC /* ZFImageVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageVideoCamera.m; sourceTree = "<group>"; };
+		7304513F2CEBFFB300D6CFFC /* ZFImageCameraRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFImageCameraRender.h; sourceTree = "<group>"; };
+		730451402CEBFFB300D6CFFC /* ZFImageCameraRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFImageCameraRender.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730451112CEB731800D6CFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7304510B2CEB731800D6CFFC = {
+			isa = PBXGroup;
+			children = (
+				730451162CEB731800D6CFFC /* video_recorder */,
+				730451152CEB731800D6CFFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730451152CEB731800D6CFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730451142CEB731800D6CFFC /* video_recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730451162CEB731800D6CFFC /* video_recorder */ = {
+			isa = PBXGroup;
+			children = (
+				7304513B2CEBFC8200D6CFFC /* imageInput */,
+				730451302CEB732C00D6CFFC /* imageCore */,
+				730451172CEB731800D6CFFC /* AppDelegate.h */,
+				730451182CEB731800D6CFFC /* AppDelegate.m */,
+				7304511A2CEB731800D6CFFC /* SceneDelegate.h */,
+				7304511B2CEB731800D6CFFC /* SceneDelegate.m */,
+				7304511D2CEB731800D6CFFC /* ViewController.h */,
+				7304511E2CEB731800D6CFFC /* ViewController.m */,
+				730451202CEB731800D6CFFC /* Main.storyboard */,
+				730451232CEB731A00D6CFFC /* Assets.xcassets */,
+				730451252CEB731A00D6CFFC /* LaunchScreen.storyboard */,
+				730451282CEB731A00D6CFFC /* Info.plist */,
+				730451292CEB731A00D6CFFC /* main.m */,
+				730451372CEB769C00D6CFFC /* readme.h */,
+			);
+			path = video_recorder;
+			sourceTree = "<group>";
+		};
+		730451302CEB732C00D6CFFC /* imageCore */ = {
+			isa = PBXGroup;
+			children = (
+				730451312CEB734A00D6CFFC /* HZImageOutput.h */,
+				730451322CEB734A00D6CFFC /* HZImageOutput.m */,
+				730451342CEB743300D6CFFC /* ZFImageContext.h */,
+				730451352CEB743300D6CFFC /* ZFImageContext.m */,
+				730451382CEB784E00D6CFFC /* ZFImageTextureFrame.h */,
+				730451392CEB784F00D6CFFC /* ZFImageTextureFrame.m */,
+			);
+			path = imageCore;
+			sourceTree = "<group>";
+		};
+		7304513B2CEBFC8200D6CFFC /* imageInput */ = {
+			isa = PBXGroup;
+			children = (
+				7304513C2CEBFC9900D6CFFC /* ZFImageVideoCamera.h */,
+				7304513D2CEBFC9900D6CFFC /* ZFImageVideoCamera.m */,
+				7304513F2CEBFFB300D6CFFC /* ZFImageCameraRender.h */,
+				730451402CEBFFB300D6CFFC /* ZFImageCameraRender.m */,
+			);
+			path = imageInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730451132CEB731800D6CFFC /* video_recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7304512D2CEB731A00D6CFFC /* Build configuration list for PBXNativeTarget "video_recorder" */;
+			buildPhases = (
+				730451102CEB731800D6CFFC /* Sources */,
+				730451112CEB731800D6CFFC /* Frameworks */,
+				730451122CEB731800D6CFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = video_recorder;
+			productName = video_recorder;
+			productReference = 730451142CEB731800D6CFFC /* video_recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7304510C2CEB731800D6CFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ZF;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					730451132CEB731800D6CFFC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7304510F2CEB731800D6CFFC /* Build configuration list for PBXProject "video_recorder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7304510B2CEB731800D6CFFC;
+			productRefGroup = 730451152CEB731800D6CFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730451132CEB731800D6CFFC /* video_recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730451122CEB731800D6CFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730451272CEB731A00D6CFFC /* LaunchScreen.storyboard in Resources */,
+				730451242CEB731A00D6CFFC /* Assets.xcassets in Resources */,
+				730451222CEB731800D6CFFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730451102CEB731800D6CFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7304513A2CEB784F00D6CFFC /* ZFImageTextureFrame.m in Sources */,
+				7304511F2CEB731800D6CFFC /* ViewController.m in Sources */,
+				7304513E2CEBFC9900D6CFFC /* ZFImageVideoCamera.m in Sources */,
+				730451362CEB743300D6CFFC /* ZFImageContext.m in Sources */,
+				730451412CEBFFB300D6CFFC /* ZFImageCameraRender.m in Sources */,
+				730451332CEB734A00D6CFFC /* HZImageOutput.m in Sources */,
+				730451192CEB731800D6CFFC /* AppDelegate.m in Sources */,
+				7304512A2CEB731A00D6CFFC /* main.m in Sources */,
+				7304511C2CEB731800D6CFFC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730451202CEB731800D6CFFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730451212CEB731800D6CFFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730451252CEB731A00D6CFFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730451262CEB731A00D6CFFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7304512B2CEB731A00D6CFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7304512C2CEB731A00D6CFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7304512E2CEB731A00D6CFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V6JDJS98A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = video_recorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhifeng.video-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7304512F2CEB731A00D6CFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V6JDJS98A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = video_recorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhifeng.video-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7304510F2CEB731800D6CFFC /* Build configuration list for PBXProject "video_recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7304512B2CEB731A00D6CFFC /* Debug */,
+				7304512C2CEB731A00D6CFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7304512D2CEB731A00D6CFFC /* Build configuration list for PBXNativeTarget "video_recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7304512E2CEB731A00D6CFFC /* Debug */,
+				7304512F2CEB731A00D6CFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7304510C2CEB731800D6CFFC /* Project object */;
+}
